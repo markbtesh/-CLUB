@@ -36,7 +36,7 @@ const Hero = () => {
         
       
       </div>
-      <div className='absolute bottom-20'>
+      <div className='absolute bottom-0 lg:bottom-20'>
       <a href="https://twitter.com/" target="_blank" rel="noopener noreferrer">
         <FontAwesomeIcon icon={faTwitter} color='#1877F2' size="5x" className="pr-3"/>
       </a>
