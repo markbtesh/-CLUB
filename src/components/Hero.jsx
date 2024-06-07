@@ -14,7 +14,7 @@ const Hero = () => {
   return (
     <section className="relative w-full h-screen mx-auto overflow-hidden">
 
-      <div className={`${styles.paddingX} absolute inset-0 sm:top-[350px] xs:top-[350px] lg:top-[75px] max-w-7x1 mx-auto flex flex-row items-start gap-5`}>
+      <div className={`${styles.paddingX} absolute inset-0 top-[250px] lg:top-[75px] max-w-7x1 mx-auto flex flex-row items-start gap-5`}>
         <div className="flex flex-col justify-center items-center mt-5">
           <div className="w-5 h-5 rounded-full bg-[#FF5D29]" />
           <div className="w-1 sm:h-80 h-40 violet-gradient" />
@@ -48,7 +48,7 @@ const Hero = () => {
 
    
       
-      <div className='absolute lg:left-[14vw] xs:top-10 sm:top-10 lg:top-0  w-full flex justify-center items-center'>
+      <div className='absolute lg:left-[14vw] top-10 lg:top-0  w-full flex justify-center items-center'>
         
               <div className="slider-thumbnail">
                 <img src={banner} alt="Slider Images" />
@@ -62,7 +62,7 @@ const Hero = () => {
         <div >
         <img className="chat-bubble" src={bubble} />
         <h2 className={`${styles.dollar} absolute  left-[42.6vw] inline-block top-[-4px]`}></h2>
-        <h2 className={`${styles.heroBubbleText} absolute lg:left-[45vw] xs:left-[46vw] sm:left-[46vw] xs:top-[0px] sm:top-[0px] lg:top-10 `}> $CLUB</h2>
+        <h2 className={`${styles.heroBubbleText} absolute left-[49vw] md:left-[46vw] lg:left-[45vw] top-[-3px] lg:top-10 `}> $CLUB</h2>
         </div>
        
 
